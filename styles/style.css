@@ -222,3 +222,33 @@ header nav ul li a:hover{
     cursor: pointer;
     border: 2px solid #fff;
   }
+
+  footer .overlay .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  footer .overlay .social ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    list-style: none;
+  }
+  footer .overlay .social ul li{
+      color: #fff;
+  }
+  footer .overlay .social ul li a{
+      color: #fff;
+  }
+  footer .overlay .social ul li a svg{
+      font-size: 24px;
+  }
+  footer .overlay .description{
+      text-align: center;
+      color: #fff;
+      width: 500px;
+      margin: auto;
+      font-size: 18px;
+      text-align: justify;
+  }
